@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+position: relative;
+width: 100%;
+height: 100vh;
+background-color: rgb(201, 235, 205);
+padding-top: 4%;
+
+}
+#welcome1 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500px;
+    color: black;
+    padding-left: 1%;
+    top: 30%;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 2.3;
+    text-align: center;
+}
+#welcome2 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500px;
+    color: black;
+    padding-left: 9.5%;
+    top: 53%;
+    font-family: 'Press Start 2P', cursive;
+}
+#swap1 {
+    position: absolute;
+    font-size: 87px;
+    font-weight: 500px;
+    color: black;
+    padding-left: 72%;
+    top: 38%;
+}
+input {
+position: absolute;
+height: 7%;
+width: 80%;
+background-color: aliceblue;
+color: black;
+border: solid;
+border-color: transparent;
+padding-left: 8%;
+margin-left: 10.3%;
+margin-top: 54%;
+border-radius: 47px;
+font-size: 17px;
+text-transform: capitalize;
+letter-spacing: 1.5px;
+visibility: hidden;
+}
+#input2 {
+    margin-top: 81%;
+    visibility: hidden;
+}
+#swap2 {
+    position: absolute;
+    font-size: 63px;
+    font-weight: 484px;
+    color: black;
+    padding-left: 74%;
+    top: 3%;
+    visibility: hidden;
+}
+#avatarslc {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500px;
+    color: black;
+    padding-left: 10.5%;
+    top: 22%;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: capitalize;
+    visibility: hidden;
+}
+#box {
+    position: absolute;
+    height: 27%;
+    width: 60%;
+    background-color: aliceblue;
+    margin-left: 20.5%;
+    margin-top: 63%;
+    border-radius: 47px;
+    visibility: hidden;
+    border-color: black;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.pic {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+}
+
+#button1 {
+position: relative;
+top: 64%;
+left: 37%;
+border: none;
+font-size: 53px; 
+visibility: hidden;
+  }
+ #button2 {
+
+    position: relative;
+    top: 64%;
+    left: 34%;
+    border:none;
+    font-size: 53px;
+    visibility: hidden;
+    }
+    #buttonslct {
+        position: absolute;
+        height: 6%;
+        width: 41%;
+        background-color: black;
+        margin-left: -0.5%;
+        margin-top: 157%;
+        border-radius: 47px;
+        border-color: black;
+        border: none;
+        color: white;
+        visibility: hidden;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 13px;
+        padding-left: 2%;
+    }
